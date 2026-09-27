@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
             TextField(controller: phone, keyboardType: TextInputType.phone,
               decoration: const InputDecoration(labelText: 'رقم الهاتف')),
             const SizedBox(height: 12),
-            const Text('السعر التقديري: 35 جنيه', textAlign: TextAlign.right,
+            const Text('السعر التقديري: 40 جنيه', textAlign: TextAlign.right,
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800, color: Color(0xFFFF7619))),
             FilledButton(
               onPressed: () {
